@@ -60,20 +60,9 @@ import React from "react";
 import { SearchOutlined } from "@ant-design/icons";
 import { Button, Input, Select, Space } from "antd";
 const { Search } = Input;
-const options = [
-  // {
-  //   value: "zhejiang",
-  //   label: "Zhejiang",
-  // },
-  {
-    value: "jiangsu",
-    label: "Jiangsu",
-  },
-];
 const Apps = () => (
   <Space direction="vertical" size="middle">
     <Input placeholder="print ToDo List" />
-
   </Space>
 );
 export default Apps;
